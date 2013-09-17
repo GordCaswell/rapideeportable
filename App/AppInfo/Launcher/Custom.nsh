@@ -2,16 +2,16 @@ ${SegmentFile}
 
 ${SegmentInit}
 	${If} $Bits == 32
-		Rename "$INSTDIR\App\RapidEE\rapideeX86.exe" "$INSTDIR\App\RapidEE\rapidee.exe"
+		Rename "$EXEDIR\App\RapidEE\rapideeX86.exe" "$EXEDIR\App\RapidEE\rapidee.exe"
 	${ElseIf} $Bits == 64
-		Rename "$INSTDIR\App\RapidEE\rapideeX64.exe" "$INSTDIR\App\RapidEE\rapidee.exe"
+		Rename "$EXEDIR\App\RapidEE\rapideeX64.exe" "$EXEDIR\App\RapidEE\rapidee.exe"
 	${EndIf}
 !macroend
 
 ${SegmentPost}
 	${If} $Bits == 32
-		Rename "$INSTDIR\App\RapidEE\rapidee.exe" "$INSTDIR\App\RapidEE\rapideeX86.exe"
+		Rename "$EXEDIR\App\RapidEE\rapidee.exe" "$EXEDIR\App\RapidEE\rapideeX86.exe"
 	${ElseIf} $Bits == 64
-		Rename "$INSTDIR\App\RapidEE\rapidee.exe" "$INSTDIR\App\RapidEE\rapideeX64.exe"
+		Rename "$EXEDIR\App\RapidEE\rapidee.exe" "$EXEDIR\App\RapidEE\rapideeX64.exe"
 	${EndIf}
 !macroend
