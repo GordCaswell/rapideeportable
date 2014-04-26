@@ -1,3 +1,74 @@
+* 8.0 build 919 (April 23, 2014)
+
+- updated: Dutch translation (Huib Klink)
+- updated: 3rd party libs
+
+* 8.0 build 918 (April 21, 2014)
+
+- added: Turkish translation (Mehmet Akif Taşova)
+
+* 8.0 build 917 (April 17, 2014)
+
+- updated: Dutch translation (Huib Klink)
+
+* 8.0 build 916 (March 2, 2014)
+
+- updated: Korean translation (thanks to Changwoo Nam)
+- fixed: couple of small memory leaks
+- updated: 3rd party libs
+
+* 8.0 build 915 (January 24, 2014)
+
+- updated: Finnish translation (thanks to Veikko Muurikainen)
+
+* 8.0 build 914 (January 3, 2014)
+
+- added: Hungarian translation (thanks to Bluestar)
+
+* 8.0 build 913 (January 3, 2014)
+
+- added: Romanian translation (thanks to Bogdan Balasa)
+
+* 8.0 build 912 (December 1, 2013)
+
+- added: Indonesian translation (thanks to M. Ridwan Hakim)
+
+* 8.0 build 911 (November 28, 2013)
+
+- fixed: updated Japanese translation (thanks to Kazunori Ikezawa)
+
+* 8.0 build 910 (November 28, 2013)
+
+- fixed: prefer external *.mo over embedded translation (this allows
+  translators to check localization on-the-fly)
+
+* 8.0 build 909 (November 21, 2013)
+
+- added: Norwegian translation (Ivan Nedrehagen)
+
+* 8.0 build 908 (November 15, 2013)
+
+- fixed: incorrect handling of '/' character in the content assist
+  (thanks to Sylvain Bougnoux)
+- added: supported Ctrl-A hotkey in the edit fields
+- updated: 3rd party libs
+
+* 8.0 build 907 (October 18, 2013)
+
+- added: 'Restart as administrator' has been added as
+  'File' menu item (Thanks to Igal Tabachnik for the idea)
+  
+* 8.0 build 906 (October 2, 2013)
+
+- fixed: animation disabling option doesn't work when
+  restarting RapidEE (Thanks to Simon for pointing to
+  this issue)
+
+* 8.0 build 905 (September 18, 2013)
+
+- updated: 3rd party libs
+- fixed: extra checkboxes in the 'Options' dialog
+
 * 8.0 build 904 (July 19, 2013)
 
 HOW TO UPGRADE FROM 7.x:
