@@ -1,3 +1,98 @@
+* 9.2 build 937 (Jul 3, 2018)
+
+- added: Lithuanian translation (Zygi Mantus)
+- added: Bulgarian translation (Zhivko Kabaivanov, Dimo Dimo)
+- fixed: Improved High DPI support (thanks to Yaroslav Kihtan for testing)
+- updated: 3rd-party libs
+
+* 9.1 build 936 (May 7, 2017)
+
+- fixed: Polish translation (Przemyslaw P. Socha)
+
+* 9.1 build 935 (May 7, 2017)
+
+- updated: Italian translation (Roberto Boriotti)
+- updated: Polish translation (Przemyslaw P. Socha)
+- added: Multi-language installer (more than 20 languages have been added)
+
+* 9.1 build 934 (May 1, 2017)
+
+- added: Arabic translation (MFM Dawdeh)
+- updated: Japanese translation (Kazunori Ikezawa)
+- updated: Indonesian translation (Muhammad Ridwan Hakim)
+
+* 9.1 build 933 (April 5, 2017)
+
+- updated: Turkish translation (Fenok)
+- updated: Brazilian Portuguese translation (Igor Ruckert)
+- fixed: migrated to the secure https
+
+* 9.1 build 932 (January 16, 2017)
+
+- added: Czech translation (thanks to Jiri Vagner)
+- updated: Croatian translation (Tomislav Gotic)
+- added: display RapidEE version number in the installer
+
+* 9.1 build 931 (November 12, 2016)
+
+- updated: Swedish translation (thanks to Ake Engelbrektson)
+- updated: Chinese translation (thanks to Chonghua He)
+- fixed: command line key -R is case-insensitive now (thanks to Duncan Grant)
+- fixed: RapidEE fails on paste via RDP (thanks to Igor Varfolomeev)
+- fixed: Copy/Paste always inserts variable as String
+
+* 9.0 build 930 (March 27, 2016)
+
+- updated: 3rd-party libraries
+- added: Ctrl+Q hotkey (thanks to Doğan Çelik)
+- updated: Ukrainian translation (thanks to Васильчук В.)
+- fixed: RapidEE fails if rapidee.ini file can't written (thanks to
+  Thibaud Taudin Chabot)
+- fixed: RapidEE fails on paste under some conditions (thanks to
+  Thomas Jensen)
+
+* 8.0 build 929 (May 11, 2015)
+
+- fixed: Ukrainian translation (thanks to Васильчук В.)
+
+* 8.0 build 928 (May 7, 2015)
+
+- added: Ukrainian translation (thanks to Васильчук В.)
+
+* 8.0 build 927 (March 23, 2015)
+
+- fixed: French translation (thanks to Gaël)
+
+* 8.0 build 926 (February 15, 2015)
+
+- fixed: re-fixed cursor missing bug
+
+* 8.0 build 925 (February 10, 2015)
+
+- updated: 3rd party libs
+- fixed: cursor missing in edit field if the system has non-standard DPI
+  (thanks to Richard Opsal for bug reporting)
+
+* 8.0 build 924 (October 28, 2014)
+
+- added: Abkhazian translation (thanks to Andrey Abuhba)
+- updated: 3rd party libs
+
+* 8.0 build 923 (August 22, 2014)
+
+- fixed: auto-complete feature was broken due to regression in the
+  3rd party library.
+
+* 8.0 build 922 (August 11, 2014)
+
+- fixed: "Invalid image size" exception (happens on some Win7 systems
+  during RapidEE startup)
+- updated: 3rd party libs
+
+* 8.0 build 920 (June 13, 2014)
+
+- updated: Italian translation (Giacomo Margarito)
+
 * 8.0 build 919 (April 23, 2014)
 
 - updated: Dutch translation (Huib Klink)
@@ -57,7 +152,7 @@
 
 - added: 'Restart as administrator' has been added as
   'File' menu item (Thanks to Igal Tabachnik for the idea)
-  
+
 * 8.0 build 906 (October 2, 2013)
 
 - fixed: animation disabling option doesn't work when
@@ -184,7 +279,7 @@ INSTALL 8.x! SEE DETAILS BELOW.
   introduced in build 815. Many thanks to all of you who sent bug
   reports and special thanks to David Ledbetter who helped me to reproduce
   this issue.
-  
+
 * 7.1 build 841 (January 25, 2013)
 
 - fixed: show warning about unsaved changes on 'restart as
@@ -194,7 +289,7 @@ INSTALL 8.x! SEE DETAILS BELOW.
   component to send bug report with some tech details.
 - changed: disabled UPX compression to avoid antivirus false positive
   problems
-  
+
 * 7.0 build 825 (December 4, 2012)
 
 - fixed: Slovak translation (Peter Kapusta)
